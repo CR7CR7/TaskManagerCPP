@@ -1,15 +1,24 @@
 
 
+
 ---
 
 # **TaskManagerCPP**
+
+=======
+# TaskManagerCPP
+A minimalist HTTP server that processes requests, stores data in a database, and exposes a JSON API.
 
 Лек и модулен C++ backend за управление на задачи, изграден върху **Boost.Beast**, **SQLite3** и **C++17**.  
 Проектът демонстрира как се създава минималистичен HTTP сървър, който обработва заявки, съхранява данни в база и предоставя JSON API.
 
 ---
 
+
 ## ✨ **Features**
+=======
+## ✨ Features
+
 - **HTTP сървър** с Boost.Beast  
 - **SQLite3 база** за съхранение на задачи  
 - **JSON API** чрез *nlohmann::json*  
@@ -20,7 +29,11 @@
 
 ---
 
+
 ## 📁 **Project Structure**
+=======
+## 📁 Project Structure
+
 
 ```
 TaskManagerCPP/
@@ -42,7 +55,11 @@ TaskManagerCPP/
 
 ---
 
+
 ## 🔧 **Dependencies (via vcpkg)**
+=======
+## 🔧 Dependencies (via vcpkg)
+
 
 Проектът използва следните пакети:
 
@@ -61,7 +78,11 @@ vcpkg install boost-beast:x64-windows boost-system:x64-windows boost-thread:x64-
 
 ---
 
+
 ## 🛠 **Build (Windows + vcpkg)**
+=======
+## 🛠 Build (Windows + vcpkg)
+
 
 ```bash
 mkdir build
@@ -73,6 +94,9 @@ cmake --build .
 ---
 
 ## 🚀 **Run**
+=======
+## 🚀 Run
+
 
 ```bash
 ./build/Debug/TaskManagerCPP.exe
@@ -82,7 +106,11 @@ cmake --build .
 
 ---
 
+
 ## 🧪 **Run Tests**
+=======
+## 🧪 Run Tests
+
 
 ```bash
 ./build/Debug/TaskManagerTests.exe
@@ -90,7 +118,11 @@ cmake --build .
 
 ---
 
+
 ## 📡 **API Endpoints**
+=======
+## 📡 API Endpoints
+
 
 ### `GET /tasks`
 Връща всички задачи.
@@ -118,6 +150,7 @@ cmake --build .
 
 ---
 
+
 ## 🧱 **Architecture Overview**
 
 - **Server**  
@@ -130,11 +163,29 @@ cmake --build .
   Работи със SQLite и изпълнява CRUD операции.
 
 - **Task**  
+=======
+## 🧱 Architecture Overview
+
+- Server  
+  Приема TCP връзки и чете HTTP заявки.
+
+- Router  
+  Разпределя заявките по пътища и извиква съответните handler-и.
+
+- Database  
+  Работи със SQLite и изпълнява CRUD операции.
+
+- Task  
+
   Представлява модел на данните.
 
 ---
 
+
 ## 📌 **Why This Project Exists**
+=======
+## 📌 Why This Project Exists
+
 
 TaskManagerCPP е учебен пример за:
 
@@ -149,7 +200,11 @@ TaskManagerCPP е учебен пример за:
 
 ---
 
+
 ## 🚧 **Future Improvements**
+=======
+## 🚧 Future Improvements
+
 - Добавяне на async обработка (Boost.Asio coroutines)
 - Поддръжка на PATCH заявки
 - JWT authentication
@@ -159,15 +214,25 @@ TaskManagerCPP е учебен пример за:
 
 ---
 
+
 ## 🤝 **Contributing**
+=======
+## 🤝 Contributing
+
 
 Pull requests са добре дошли.  
 За големи промени – отворете issue, за да обсъдим идеята.
 
 ---
 
+
 ## 📄 **License**
+=======
+## 📄 License
+
 
 MIT License.
 
 ---
+
+
