@@ -1,0 +1,10 @@
+^E:\BELL D. C++. A STEP-BY-STEP GUIDE FOR ABSOLUTE BEGINNERS 2019\TASKMANAGERCPP\BUILD\CMAKEFILES\D493A9C77BC6F6095170C402A50F1594\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SE:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP" "-BE:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build/TaskManagerCPP.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

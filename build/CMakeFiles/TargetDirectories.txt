@@ -1,0 +1,4 @@
+E:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build/CMakeFiles/TaskManagerCPP.dir
+E:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build/CMakeFiles/TaskManagerTests.dir
+E:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build/CMakeFiles/ALL_BUILD.dir
+E:/Bell D. C++. A Step-by-Step Guide for Absolute Beginners 2019/TaskManagerCPP/build/CMakeFiles/ZERO_CHECK.dir
